@@ -124,7 +124,7 @@ mvn clean package
 ./mvnw javafx:run
 
 # Or run the packaged JAR
-java -jar target/asteroids-1.0-SNAPSHOT.jar
+java -jar target/asteroids-*.jar
 ```
 
 ### Run Tests
@@ -182,7 +182,7 @@ asteroids/
 
 - **Course**: SE233 Advanced Programming
 - **Game Concept**: Based on the classic Atari Asteroids (1979)
-- **Framework**: JavaFX
+- **Framework**: JavaFX 21
 - **Sprites**: Custom sprite assets for educational purposes
 
 ## License
